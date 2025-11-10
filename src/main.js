@@ -46,15 +46,39 @@ document.querySelector('#app').innerHTML = `
     </div>
   </section>
 
-  <!-- Recent Results -->
-  <section class="results-section">
+  <!-- Logo Slider -->
+  <section class="logo-section">
     <div class="container">
-      <h2>Recent Results Using This Exact System 👇</h2>
+      <h2>Trusted By Leading Companies</h2>
+    </div>
+    <div class="logo-slider">
+      <div class="logo-track">
+        <div class="logo-slide">
+          <img src="https://via.placeholder.com/150x60/333/fff?text=Company+1" alt="Company 1">
+          <img src="https://via.placeholder.com/150x60/333/fff?text=Company+2" alt="Company 2">
+          <img src="https://via.placeholder.com/150x60/333/fff?text=Company+3" alt="Company 3">
+          <img src="https://via.placeholder.com/150x60/333/fff?text=Company+4" alt="Company 4">
+          <img src="https://via.placeholder.com/150x60/333/fff?text=Company+5" alt="Company 5">
+          <img src="https://via.placeholder.com/150x60/333/fff?text=Company+6" alt="Company 6">
+          <img src="https://via.placeholder.com/150x60/333/fff?text=Company+7" alt="Company 7">
+          <img src="https://via.placeholder.com/150x60/333/fff?text=Company+8" alt="Company 8">
+        </div>
+        <div class="logo-slide" aria-hidden="true">
+          <img src="https://via.placeholder.com/150x60/333/fff?text=Company+1" alt="Company 1">
+          <img src="https://via.placeholder.com/150x60/333/fff?text=Company+2" alt="Company 2">
+          <img src="https://via.placeholder.com/150x60/333/fff?text=Company+3" alt="Company 3">
+          <img src="https://via.placeholder.com/150x60/333/fff?text=Company+4" alt="Company 4">
+          <img src="https://via.placeholder.com/150x60/333/fff?text=Company+5" alt="Company 5">
+          <img src="https://via.placeholder.com/150x60/333/fff?text=Company+6" alt="Company 6">
+          <img src="https://via.placeholder.com/150x60/333/fff?text=Company+7" alt="Company 7">
+          <img src="https://via.placeholder.com/150x60/333/fff?text=Company+8" alt="Company 8">
+        </div>
+      </div>
     </div>
   </section>
 
-  <!-- Testimonials -->
-  <section class="testimonials">
+  <!-- Testimonials (Hidden) -->
+  <section class="testimonials" style="display: none;">
     <div class="container">
       <div class="testimonial-grid">
         <!-- Testimonial 1 -->
