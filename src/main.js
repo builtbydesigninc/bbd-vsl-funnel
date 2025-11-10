@@ -196,7 +196,7 @@ document.querySelector('#app').innerHTML = `
 
       <!-- Mid CTA -->
       <div class="btn-center" style="margin-bottom: 60px;">
-        <a href="#" class="btn">BOOK YOUR FREE SESSION</a>
+        <a href="/application.html" class="btn">BOOK YOUR FREE SESSION</a>
       </div>
 
       <!-- More Testimonials -->
@@ -294,7 +294,7 @@ document.querySelector('#app').innerHTML = `
 
       <!-- Final CTA -->
       <div class="btn-center" style="margin-top: 60px;">
-        <a href="#" class="btn">BOOK YOUR FREE SESSION</a>
+        <a href="/application.html" class="btn">BOOK YOUR FREE SESSION</a>
       </div>
     </div>
   </section>
