@@ -32,7 +32,7 @@ document.querySelector('#app').innerHTML = `
           <li>Show you exactly how to set this up into your business today so you see results quickly.</li>
         </ul>
         <div class="btn-center">
-          <a href="#" class="btn">BOOK YOUR FREE SESSION</a>
+          <a href="/application.html" class="btn">BOOK YOUR FREE SESSION</a>
         </div>
       </div>
     </div>

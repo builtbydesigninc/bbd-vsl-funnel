@@ -15,3 +15,19 @@ npm run dev
 - `npm run build` - Build for production
 - `npm run preview` - Preview production build
 
+## Pages
+
+- `/` - Main VSL landing page with video
+- `/application.html` - Typeform application form
+- `/book.html` - Calendly booking page
+- `/thank-you.html` - Thank you page after booking
+
+## Features
+
+- 📹 Wistia video player integration
+- 📝 Typeform embedded application
+- 📅 Calendly booking integration
+- 📊 Facebook Meta Pixel tracking
+- 🏢 Infinite logo slider
+- 📱 Fully responsive design
+
