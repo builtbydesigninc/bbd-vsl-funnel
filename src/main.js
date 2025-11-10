@@ -21,15 +21,7 @@ document.querySelector('#app').innerHTML = `
 
       <!-- Main Video -->
       <div class="video-wrapper">
-        <div class="video-container">
-          <!-- Replace with your actual video embed -->
-          <iframe 
-            src="https://fast.wistia.net/embed/iframe/YOUR_VIDEO_ID?seo=false&videoFoam=true" 
-            frameborder="0" 
-            allow="autoplay; fullscreen" 
-            allowfullscreen
-          ></iframe>
-        </div>
+        <wistia-player media-id="nk20cslou9" aspect="1.7777777777777777"></wistia-player>
       </div>
 
       <!-- CTA Box -->

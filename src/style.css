@@ -78,6 +78,11 @@ body {
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
 }
 
+.video-wrapper wistia-player {
+  display: block;
+  width: 100%;
+}
+
 .video-container {
   position: relative;
   padding-bottom: 56.25%;
