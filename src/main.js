@@ -1,7 +1,16 @@
 import './style.css'
 
-// Placeholder for video embed functionality
-// In production, you would integrate with Wistia or your video platform
+// Track CTA button clicks
+document.addEventListener('DOMContentLoaded', () => {
+  const ctaButtons = document.querySelectorAll('.btn');
+  ctaButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      if (typeof fbq !== 'undefined') {
+        fbq('track', 'InitiateCheckout');
+      }
+    });
+  });
+});
 
 document.querySelector('#app').innerHTML = `
   <!-- Header -->
