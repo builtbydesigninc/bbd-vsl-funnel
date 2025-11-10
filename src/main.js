@@ -1,17 +1,5 @@
 import './style.css'
 
-// Track CTA button clicks
-document.addEventListener('DOMContentLoaded', () => {
-  const ctaButtons = document.querySelectorAll('.btn');
-  ctaButtons.forEach(button => {
-    button.addEventListener('click', () => {
-      if (typeof fbq !== 'undefined') {
-        fbq('track', 'InitiateCheckout');
-      }
-    });
-  });
-});
-
 document.querySelector('#app').innerHTML = `
   <!-- Header -->
   <header class="header">
@@ -331,3 +319,13 @@ document.querySelector('#app').innerHTML = `
     <div class="footer-divider"></div>
   </footer>
 `
+
+// Track CTA button clicks
+const ctaButtons = document.querySelectorAll('.btn');
+ctaButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    if (typeof fbq !== 'undefined') {
+      fbq('track', 'InitiateCheckout');
+    }
+  });
+});
