@@ -4,7 +4,7 @@ document.querySelector('#app').innerHTML = `
   <!-- Header -->
   <header class="header">
     <div class="container">
-      <div class="header-text">For Coaches, Consultants, & Agency Owners</div>
+      <div class="header-text">For Coaches, Consultants, & Info-Product Coaches</div>
     </div>
   </header>
 
@@ -12,8 +12,8 @@ document.querySelector('#app').innerHTML = `
   <section class="hero">
     <div class="container">
       <div class="hero-content">
-        <h1>Discover The Growth Engine That Scales Coaches & agencies to $100K/M in 90 Days</h1>
-        <p class="subtitle">This is the system behind over $300M in client revenue and powering the growth of 4,000 businesses today</p>
+        <h1>Discover The Growth Engine That Scales Coaches & Info-Products to $100K/M in 90 Days</h1>
+        <p class="subtitle">This is the same system behind over $150M+ in client revenue.</p>
       </div>
 
       <!-- Main Video -->
@@ -23,7 +23,7 @@ document.querySelector('#app').innerHTML = `
 
       <!-- CTA Box -->
       <div class="cta-box">
-        <h2>Book A Free Agency Growth Session Where We Will:</h2>
+        <h2>Book A Free Discovery Call where we will:</h2>
         <ul class="cta-list">
           <li>Look at your current setup and map out exactly how the 4 systems would apply based on your niche, offer, and current bottlenecks.</li>
           <li>Show you exactly how to set this up into your business today so you see results quickly.</li>
