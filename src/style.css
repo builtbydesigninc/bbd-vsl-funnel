@@ -10,8 +10,9 @@
   --gray-light: #f5f5f5;
   --gray-medium: #e0e0e0;
   --gray-text: #666666;
-  --cyan: #00bcd4;
-  --cyan-hover: #00acc1;
+  --blue: #2563eb;
+  --blue-hover: #1d4ed8;
+  --blue-light: #dbeafe;
 }
 
 body {
@@ -132,7 +133,7 @@ body {
   content: '➤';
   position: absolute;
   left: 0;
-  color: var(--cyan);
+  color: var(--blue);
   font-weight: bold;
   font-size: 16px;
 }
@@ -151,7 +152,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: 10px;
-  background: var(--cyan);
+  background: var(--blue);
   color: var(--white);
   padding: 14px 30px;
   font-size: 16px;
@@ -164,7 +165,7 @@ body {
 }
 
 .btn:hover {
-  background: var(--cyan-hover);
+  background: var(--blue-hover);
 }
 
 .btn::after {
@@ -176,86 +177,107 @@ body {
   text-align: center;
 }
 
-/* Logo Slider Section */
-.logo-section {
-  background: var(--white);
-  padding: 60px 0;
+/* Client Showcase Section */
+.clients-section {
+  background: var(--gray-light);
+  padding: 80px 0;
   border-top: 1px solid var(--gray-medium);
   border-bottom: 1px solid var(--gray-medium);
 }
 
-.logo-section h2 {
+.clients-section h2 {
   text-align: center;
-  font-size: 28px;
-  font-weight: 600;
-  margin-bottom: 40px;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 50px;
   color: var(--black);
 }
 
-.logo-slider {
-  overflow: hidden;
-  padding: 20px 0;
-  position: relative;
+.clients-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-items: center;
 }
 
-.logo-slider::before,
-.logo-slider::after {
+.client-card {
+  background: var(--white);
+  border-radius: 8px;
+  padding: 40px 30px;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  max-width: 320px;
+}
+
+.client-card::before {
   content: '';
   position: absolute;
   top: 0;
-  width: 100px;
-  height: 100%;
-  z-index: 2;
-  pointer-events: none;
-}
-
-.logo-slider::before {
   left: 0;
-  background: linear-gradient(to right, var(--white), transparent);
-}
-
-.logo-slider::after {
   right: 0;
-  background: linear-gradient(to left, var(--white), transparent);
+  height: 3px;
+  background: linear-gradient(90deg, var(--blue), #3b82f6);
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
 }
 
-.logo-track {
-  display: flex;
-  animation: scroll 30s linear infinite;
+.client-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(37, 99, 235, 0.2);
 }
 
-.logo-slide {
+.client-card:hover::before {
+  transform: scaleX(1);
+}
+
+.client-logo {
+  width: 100%;
+  height: 100px;
   display: flex;
   align-items: center;
-  gap: 60px;
-  flex-shrink: 0;
+  justify-content: center;
 }
 
-.logo-slide img {
-  height: 60px;
+.client-logo img {
+  max-height: 80px;
+  max-width: 180px;
   width: auto;
+  height: auto;
   object-fit: contain;
-  filter: grayscale(100%);
-  opacity: 0.6;
-  transition: all 0.3s;
+  transition: transform 0.3s ease;
 }
 
-.logo-slide img:hover {
-  filter: grayscale(0%);
-  opacity: 1;
+.client-card:hover .client-logo img {
+  transform: scale(1.05);
 }
 
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-50%);
-  }
+.client-name {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--black);
+  margin: 0;
+  letter-spacing: -0.3px;
 }
 
-.logo-track:hover {
-  animation-play-state: paused;
+.client-stat {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--blue);
+  margin: 0;
+  padding: 8px 16px;
+  background: var(--blue-light);
+  border-radius: 20px;
 }
 
 /* Testimonials */
@@ -326,8 +348,20 @@ body {
   line-height: 1.8;
 }
 
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.footer-logo img {
+  height: 50px;
+  width: auto;
+}
+
 .footer-copyright {
   margin-bottom: 20px;
+  font-weight: 500;
 }
 
 .footer-disclaimer {
@@ -365,6 +399,27 @@ body {
 
   .hero .subtitle {
     font-size: 18px;
+  }
+
+  .clients-section {
+    padding: 60px 0;
+  }
+
+  .clients-section h2 {
+    font-size: 26px;
+  }
+
+  .clients-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .client-card {
+    padding: 30px 20px;
+  }
+
+  .footer-logo img {
+    height: 40px;
   }
 
   .testimonial-grid {

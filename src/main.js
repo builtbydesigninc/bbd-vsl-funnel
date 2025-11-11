@@ -18,7 +18,7 @@ document.querySelector('#app').innerHTML = `
 
       <!-- Main Video -->
       <div class="video-wrapper">
-        <wistia-player media-id="nk20cslou9" aspect="1.7777777777777777"></wistia-player>
+        <wistia-player media-id="iwn51pnx1c" aspect="1.7777777777777777"></wistia-player>
       </div>
 
       <!-- CTA Box -->
@@ -38,33 +38,90 @@ document.querySelector('#app').innerHTML = `
     </div>
   </section>
 
-  <!-- Logo Slider -->
-  <section class="logo-section">
+  <!-- Client Showcase -->
+  <section class="clients-section">
     <div class="container">
       <h2>Trusted By Leading Companies</h2>
-    </div>
-    <div class="logo-slider">
-      <div class="logo-track">
-        <div class="logo-slide">
-          <img src="https://via.placeholder.com/150x60/333/fff?text=Company+1" alt="Company 1">
-          <img src="https://via.placeholder.com/150x60/333/fff?text=Company+2" alt="Company 2">
-          <img src="https://via.placeholder.com/150x60/333/fff?text=Company+3" alt="Company 3">
-          <img src="https://via.placeholder.com/150x60/333/fff?text=Company+4" alt="Company 4">
-          <img src="https://via.placeholder.com/150x60/333/fff?text=Company+5" alt="Company 5">
-          <img src="https://via.placeholder.com/150x60/333/fff?text=Company+6" alt="Company 6">
-          <img src="https://via.placeholder.com/150x60/333/fff?text=Company+7" alt="Company 7">
-          <img src="https://via.placeholder.com/150x60/333/fff?text=Company+8" alt="Company 8">
-        </div>
-        <div class="logo-slide" aria-hidden="true">
-          <img src="https://via.placeholder.com/150x60/333/fff?text=Company+1" alt="Company 1">
-          <img src="https://via.placeholder.com/150x60/333/fff?text=Company+2" alt="Company 2">
-          <img src="https://via.placeholder.com/150x60/333/fff?text=Company+3" alt="Company 3">
-          <img src="https://via.placeholder.com/150x60/333/fff?text=Company+4" alt="Company 4">
-          <img src="https://via.placeholder.com/150x60/333/fff?text=Company+5" alt="Company 5">
-          <img src="https://via.placeholder.com/150x60/333/fff?text=Company+6" alt="Company 6">
-          <img src="https://via.placeholder.com/150x60/333/fff?text=Company+7" alt="Company 7">
-          <img src="https://via.placeholder.com/150x60/333/fff?text=Company+8" alt="Company 8">
-        </div>
+      <div class="clients-grid">
+        <a href="https://theaipartner.io" target="_blank" rel="noopener" class="client-card">
+          <div class="client-logo">
+            <img src="/logos/theaipartner.png" alt="The AI Partner">
+          </div>
+          <h3 class="client-name">The AI Partner</h3>
+          <p class="client-stat">Scaled to $400,000/month</p>
+        </a>
+
+        <a href="https://cliniclaunchacademy.com" target="_blank" rel="noopener" class="client-card">
+          <div class="client-logo">
+            <img src="/logos/cla-logo.png" alt="Clinic Launch Academy">
+          </div>
+          <h3 class="client-name">Clinic Launch Academy</h3>
+          <p class="client-stat">Scaled to $250,000/month</p>
+        </a>
+
+        <a href="https://www.netrevenue.io/" target="_blank" rel="noopener" class="client-card">
+          <div class="client-logo">
+            <img src="/logos/netrevenue.svg" alt="Net Revenue">
+          </div>
+          <h3 class="client-name">Net Revenue</h3>
+          <p class="client-stat">Scaled to $300,000/month</p>
+        </a>
+
+        <a href="https://growacquisition.com/" target="_blank" rel="noopener" class="client-card">
+          <div class="client-logo">
+            <img src="/logos/growthaquisition.png" alt="GrowAcquisition">
+          </div>
+          <h3 class="client-name">GrowAcquisition</h3>
+          <p class="client-stat">Scaled to $200,000/month</p>
+        </a>
+
+        <a href="https://vibecodingos.com" target="_blank" rel="noopener" class="client-card">
+          <div class="client-logo">
+            <img src="/logos/vibecodingos.png" alt="VibeCodingOS">
+          </div>
+          <h3 class="client-name">VibeCodingOS</h3>
+          <p class="client-stat">Scaled to $175,000/month</p>
+        </a>
+
+        <a href="https://cloudhire.ai" target="_blank" rel="noopener" class="client-card">
+          <div class="client-logo">
+            <img src="/logos/cloudhire.png" alt="CloudHire">
+          </div>
+          <h3 class="client-name">CloudHire</h3>
+          <p class="client-stat">Scaled to $120,000/month</p>
+        </a>
+
+        <a href="https://everwellusa.com" target="_blank" rel="noopener" class="client-card">
+          <div class="client-logo">
+            <img src="/logos/everwell.png" alt="Everwell">
+          </div>
+          <h3 class="client-name">Everwell MD</h3>
+          <p class="client-stat">Scaled to $95,000/month</p>
+        </a>
+
+        <a href="https://www.thepeptidemarket.com/" target="_blank" rel="noopener" class="client-card">
+          <div class="client-logo">
+            <img src="/logos/thepeptidemarket.png" alt="The Peptide Market">
+          </div>
+          <h3 class="client-name">The Peptide Market</h3>
+          <p class="client-stat">Scaled to $80,000/month</p>
+        </a>
+
+        <a href="https://www.hvactoequity.com/" target="_blank" rel="noopener" class="client-card">
+          <div class="client-logo">
+            <img src="/logos/hvac.svg" alt="HVAC2Equity">
+          </div>
+          <h3 class="client-name">HVAC2Equity</h3>
+          <p class="client-stat">Scaled to $150,000/month</p>
+        </a>
+
+        <a href="https://peptipharmarx.com" target="_blank" rel="noopener" class="client-card">
+          <div class="client-logo">
+            <img src="/logos/peptipharma.png" alt="PeptiPharmaRx">
+          </div>
+          <h3 class="client-name">PeptiPharmaRx</h3>
+          <p class="client-stat">Scaled to $180,000/month</p>
+        </a>
       </div>
     </div>
   </section>
@@ -303,19 +360,18 @@ document.querySelector('#app').innerHTML = `
   <footer class="footer">
     <div class="container">
       <div class="footer-content">
-        <div class="footer-copyright">©2025 Imperium Labs LTD</div>
+        <div class="footer-logo">
+          <img src="/logos/bbd-white.png" alt="Built By Design" />
+        </div>
+        <div class="footer-copyright">©2025 Built By Design. All rights reserved.</div>
         <div class="footer-disclaimer">
           <p>This website is not part of the YouTube, Google, or Facebook website; Google Inc or Facebook Inc.</p>
           <p>Also, this website is NOT endorsed by YouTube, Google or Facebook in any way. FACEBOOK is a trademark of FACEBOOK Inc. YOUTUBE is a trademark of GOOGLE Inc.</p>
         </div>
         <div class="footer-links">
-          <a href="#">Privacy Policy</a>
+          <a href="https://docs.google.com/document/d/1lotOxYoH52ZCpvMiRSH_ob995M7P_-8QmQLaCQEUR3I/edit?tab=t.0" target="_blank" rel="noopener">Privacy Policy</a>
           <span>-</span>
-          <a href="#">Terms & Conditions</a>
-          <span>-</span>
-          <a href="#">Earnings Disclaimer</a>
-          <span>-</span>
-          <a href="#">Data Protection</a>
+          <a href="https://docs.google.com/document/d/1K5m9ckVZD-MvrzYhaCTk_P5-Ufr1ICp25UF6VWDyALA/edit?tab=t.0" target="_blank" rel="noopener">Terms & Conditions</a>
         </div>
       </div>
     </div>
