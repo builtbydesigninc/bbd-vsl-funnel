@@ -30,7 +30,7 @@ body {
 }
 
 .header-logo img {
-  height: 50px;
+  height: 40px;
   width: auto;
 }
 
@@ -135,8 +135,8 @@ body {
 
 .clients-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
   max-width: 1200px;
   margin: 0 auto;
   justify-items: center;
@@ -145,7 +145,7 @@ body {
 .client-card {
   background: var(--white, #ffffff);
   border-radius: 8px;
-  padding: 40px 30px;
+  padding: 20px;
   text-align: center;
   text-decoration: none;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
@@ -153,11 +153,12 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
+  justify-content: center;
   position: relative;
   overflow: hidden;
   width: 100%;
-  max-width: 320px;
+  max-width: 220px;
+  height: 80px;
 }
 
 .client-card::before {
@@ -173,8 +174,8 @@ body {
 }
 
 .client-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 12px 24px rgba(37, 99, 235, 0.2);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(37, 99, 235, 0.15);
 }
 
 .client-card:hover::before {
@@ -183,15 +184,15 @@ body {
 
 .client-logo {
   width: 100%;
-  height: 100px;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .client-logo img {
-  max-height: 80px;
-  max-width: 180px;
+  max-height: 50px;
+  max-width: 150px;
   width: auto;
   height: auto;
   object-fit: contain;
@@ -202,27 +203,9 @@ body {
   transform: scale(1.05);
 }
 
-.client-name {
-  font-size: 20px;
-  font-weight: 700;
-  color: #000;
-  margin: 0;
-  letter-spacing: -0.3px;
-}
-
-.client-stat {
-  font-size: 16px;
-  font-weight: 600;
-  color: #2563eb;
-  margin: 0;
-  padding: 8px 16px;
-  background: #dbeafe;
-  border-radius: 20px;
-}
-
 @media (max-width: 768px) {
   .header-logo img {
-    height: 40px;
+    height: 35px;
   }
 
   .thank-you-content {
@@ -250,12 +233,18 @@ body {
   }
 
   .clients-grid {
-    grid-template-columns: 1fr;
-    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
   }
 
   .client-card {
-    padding: 30px 20px;
+    padding: 15px;
+    max-width: 180px;
+    height: 70px;
+  }
+
+  .client-logo img {
+    max-height: 40px;
   }
 }
 

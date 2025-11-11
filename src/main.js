@@ -4,7 +4,10 @@ document.querySelector('#app').innerHTML = `
   <!-- Header -->
   <header class="header">
     <div class="container">
-      <div class="header-text">For Coaches, Consultants, & Info-Product Coaches</div>
+      <div class="header-content">
+        <div class="header-text">For Coaches, Consultants, & Info-Product Coaches</div>
+        <a href="/application.html" class="header-btn">Apply Now</a>
+      </div>
     </div>
   </header>
 
@@ -43,85 +46,56 @@ document.querySelector('#app').innerHTML = `
     <div class="container">
       <h2>Trusted By Leading Companies</h2>
       <div class="clients-grid">
-        <a href="https://theaipartner.io" target="_blank" rel="noopener" class="client-card">
-          <div class="client-logo">
-            <img src="/logos/theaipartner.png" alt="The AI Partner">
-          </div>
-          <h3 class="client-name">The AI Partner</h3>
-          <p class="client-stat">Scaled to $400,000/month</p>
-        </a>
-
-        <a href="https://cliniclaunchacademy.com" target="_blank" rel="noopener" class="client-card">
-          <div class="client-logo">
-            <img src="/logos/cla-logo.png" alt="Clinic Launch Academy">
-          </div>
-          <h3 class="client-name">Clinic Launch Academy</h3>
-          <p class="client-stat">Scaled to $250,000/month</p>
-        </a>
-
-        <a href="https://www.netrevenue.io/" target="_blank" rel="noopener" class="client-card">
-          <div class="client-logo">
-            <img src="/logos/netrevenue.svg" alt="Net Revenue">
-          </div>
-          <h3 class="client-name">Net Revenue</h3>
-          <p class="client-stat">Scaled to $300,000/month</p>
-        </a>
-
-        <a href="https://growacquisition.com/" target="_blank" rel="noopener" class="client-card">
-          <div class="client-logo">
-            <img src="/logos/growthaquisition.png" alt="GrowAcquisition">
-          </div>
-          <h3 class="client-name">GrowAcquisition</h3>
-          <p class="client-stat">Scaled to $200,000/month</p>
-        </a>
-
-        <a href="https://vibecodingos.com" target="_blank" rel="noopener" class="client-card">
-          <div class="client-logo">
-            <img src="/logos/vibecodingos.png" alt="VibeCodingOS">
-          </div>
-          <h3 class="client-name">VibeCodingOS</h3>
-          <p class="client-stat">Scaled to $175,000/month</p>
-        </a>
-
-        <a href="https://cloudhire.ai" target="_blank" rel="noopener" class="client-card">
-          <div class="client-logo">
-            <img src="/logos/cloudhire.png" alt="CloudHire">
-          </div>
-          <h3 class="client-name">CloudHire</h3>
-          <p class="client-stat">Scaled to $120,000/month</p>
-        </a>
-
-        <a href="https://everwellusa.com" target="_blank" rel="noopener" class="client-card">
-          <div class="client-logo">
-            <img src="/logos/everwell.png" alt="Everwell">
-          </div>
-          <h3 class="client-name">Everwell MD</h3>
-          <p class="client-stat">Scaled to $95,000/month</p>
-        </a>
-
-        <a href="https://www.thepeptidemarket.com/" target="_blank" rel="noopener" class="client-card">
-          <div class="client-logo">
-            <img src="/logos/thepeptidemarket.png" alt="The Peptide Market">
-          </div>
-          <h3 class="client-name">The Peptide Market</h3>
-          <p class="client-stat">Scaled to $80,000/month</p>
-        </a>
-
-        <a href="https://www.hvactoequity.com/" target="_blank" rel="noopener" class="client-card">
-          <div class="client-logo">
-            <img src="/logos/hvac.svg" alt="HVAC2Equity">
-          </div>
-          <h3 class="client-name">HVAC2Equity</h3>
-          <p class="client-stat">Scaled to $150,000/month</p>
-        </a>
-
-        <a href="https://peptipharmarx.com" target="_blank" rel="noopener" class="client-card">
-          <div class="client-logo">
-            <img src="/logos/peptipharma.png" alt="PeptiPharmaRx">
-          </div>
-          <h3 class="client-name">PeptiPharmaRx</h3>
-          <p class="client-stat">Scaled to $180,000/month</p>
-        </a>
+          <a href="https://theaipartner.io" target="_blank" rel="noopener" class="client-card">
+            <div class="client-logo">
+              <img src="/logos/theaipartner.png" alt="The AI Partner">
+            </div>
+          </a>
+          <a href="https://cliniclaunchacademy.com" target="_blank" rel="noopener" class="client-card">
+            <div class="client-logo">
+              <img src="/logos/cla-logo.png" alt="Clinic Launch Academy">
+            </div>
+          </a>
+          <a href="https://www.netrevenue.io/" target="_blank" rel="noopener" class="client-card">
+            <div class="client-logo">
+              <img src="/logos/netrevenue.svg" alt="Net Revenue">
+            </div>
+          </a>
+          <a href="https://growacquisition.com/" target="_blank" rel="noopener" class="client-card">
+            <div class="client-logo">
+              <img src="/logos/growthaquisition.png" alt="GrowAcquisition">
+            </div>
+          </a>
+          <a href="https://vibecodingos.com" target="_blank" rel="noopener" class="client-card">
+            <div class="client-logo">
+              <img src="/logos/vibecodingos.png" alt="VibeCodingOS">
+            </div>
+          </a>
+          <a href="https://cloudhire.ai" target="_blank" rel="noopener" class="client-card">
+            <div class="client-logo">
+              <img src="/logos/cloudhire.png" alt="CloudHire">
+            </div>
+          </a>
+          <a href="https://everwellusa.com" target="_blank" rel="noopener" class="client-card">
+            <div class="client-logo">
+              <img src="/logos/everwell.png" alt="Everwell">
+            </div>
+          </a>
+          <a href="https://www.thepeptidemarket.com/" target="_blank" rel="noopener" class="client-card">
+            <div class="client-logo">
+              <img src="/logos/thepeptidemarket.png" alt="The Peptide Market">
+            </div>
+          </a>
+          <a href="https://www.hvactoequity.com/" target="_blank" rel="noopener" class="client-card">
+            <div class="client-logo">
+              <img src="/logos/hvac.svg" alt="HVAC2Equity">
+            </div>
+          </a>
+          <a href="https://peptipharmarx.com" target="_blank" rel="noopener" class="client-card">
+            <div class="client-logo">
+              <img src="/logos/peptipharma.png" alt="PeptiPharmaRx">
+            </div>
+          </a>
       </div>
     </div>
   </section>
