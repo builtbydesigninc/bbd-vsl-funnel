@@ -23,11 +23,14 @@ document.querySelector('#app').innerHTML = `
 
       <!-- CTA Box -->
       <div class="cta-box">
-        <h2>Book A Free Discovery Call where we will:</h2>
+        <h2>HOW WE DO IT:</h2>
         <ul class="cta-list">
-          <li>Look at your current setup and map out exactly how the 4 systems would apply based on your niche, offer, and current bottlenecks.</li>
-          <li>Show you exactly how to set this up into your business today so you see results quickly.</li>
+          <li>First, we thoroughly analyze your business, diving into key metrics like Conversion Rate Optimization, Average Order Values, Client LTV, Cost Per Acquisition, and your overall funnel and lead capture strategy.</li>
+          <li>Secondly, we take this information and draft a plan tailored to your business and explain what adjustments your team needs & how to acquire your first customer with this new offer by making sure your brand is positioned to become a 1-of-1 authority in your market to attract more of your ideal clients.</li>
+          <li>Thirdly, we reveal the exact methods we plan to employ to increase to lead acquisition over the next 12 months.</li>
+          <li>Lastly, we provide you with the necessary guidance and fulfillment systems to reach $1m+/mo and hit target KPI.</li>
         </ul>
+        <p class="cta-footer">If you want to take your business to the next level or simply discuss how your lead acquisition channels and team structure are performing, let's connect and see how we may be able to help.</p>
         <div class="btn-center">
           <a href="/application.html" class="btn">BOOK YOUR FREE SESSION</a>
         </div>
